@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "events"
+  name: "Events index"
 }
 </script>
 

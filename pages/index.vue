@@ -1,13 +1,14 @@
 <template>
   <!-- <h1 class="text-3xl font-bold underline">Index page</h1>-->
-  <div>
+  <div class="Main">
     <Alert />
+    <ProfileHeader />
   </div>
 </template>
 
 <script>
 export default {
-  name: "index"
+  name: "Main index"
 }
 </script>
 

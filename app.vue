@@ -1,16 +1,9 @@
 <template>
-  <div>
+  <div class="bg-slate-900 h-screen text-white">
     <!-- <NuxtWelcome /> -->
     <!-- <h1 class="text-3xl font-bold underline">Hello Nuxt 3!</h1> -->
     <NuxtLayout>
-      <header>
-        <ul>
-          <li>
-            <NuxtLink to="/">Home</NuxtLink>&nbsp;
-            <NuxtLink to="events">Events</NuxtLink>
-          </li>
-        </ul>
-      </header>
+      <Header />
       <NuxtPage />
     </NuxtLayout>
   </div>
