@@ -4,14 +4,17 @@
   </h1>
 </template>
 
-<script setup>
-const nuxt = useNuxtApp();
-console.log(nuxt);
-/*
+<script>
 export default {
-    name: "profile"
+  name: "profile",
+  mounted() {
+    const nuxt = useNuxtApp();
+    console.log(nuxt);
+  },
+  unmounted() {
+    console.log("Unmounted!");
+  }
 }
-*/
 </script>
 
 <style lang="scss" scoped>
