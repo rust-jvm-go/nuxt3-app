@@ -9,7 +9,10 @@ export default defineNuxtConfig({
   alias: {
     "@": resolve(__dirname, "/"),
   },
-  css: ["~/assets/main.scss"],
+  modules: [
+    '@nuxtjs/tailwindcss'
+  ],
+  css: ["~/assets/css/input.css"],
   postcss: {
     plugins: {
       tailwindcss: {},
