@@ -1,6 +1,7 @@
 /** @type {string[]} */
 export const content= [
   "./components/**/*.{js,vue,ts}",
+  "./composables/**/*.{js,vue,ts}",
   "./layouts/**/*.vue",
   "./pages/**/*.vue",
   "./plugins/**/*.{js,ts}",
