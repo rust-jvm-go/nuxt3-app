@@ -1,18 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
-import { resolve } from "path";
+/*import {fileURLToPath} from "url";*/
 
 export default defineNuxtConfig({
    typescript: {
     shim: false
   },
   alias: {
-    "@": resolve(__dirname, "/"),
+    /*"@": fileURLToPath(new URL("./", import.meta.url)),*/
+    assets: "/<rootDir>/assets",
   },
   modules: [
-    '@nuxtjs/tailwindcss'
+    "@nuxtjs/tailwindcss"
   ],
-  css: ["~/assets/css/input.css"],
+  css: ["@/assets/css/input.css"],
   postcss: {
     plugins: {
       tailwindcss: {},

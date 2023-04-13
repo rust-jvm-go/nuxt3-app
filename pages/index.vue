@@ -3,10 +3,11 @@
   <div class="Main">
     <Alert />
     <ProfileHeader />
+    <img src="@/assets/images/1.png" alt="1.png" />
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   name: "Main index"
 }

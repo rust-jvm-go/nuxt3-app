@@ -38,7 +38,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   name: "custom",
   mounted() {
@@ -49,6 +49,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 </style>
