@@ -9,7 +9,11 @@
 
 <script lang="ts">
 export default {
-  name: "Main index"
+  name: "Main index",
+  mounted() {
+    const { $hello } = useNuxtApp();
+    $hello(`I'm INVINCIBLE!!!`);
+  }
 }
 </script>
 

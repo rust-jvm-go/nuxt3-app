@@ -14,7 +14,8 @@
     "autoprefixer": "^10.4.14",
     "nuxt": "^3.3.3",
     "postcss": "^8.4.21",
-    "vite-svg-loader": "^4.0.0"
+    "vite-svg-loader": "^4.0.0",
+    "vue-gtag-next": "^1.14.0"
   },
   "dependencies": {
     "flowbite": "^1.6.5",
