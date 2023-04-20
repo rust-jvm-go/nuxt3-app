@@ -8,6 +8,9 @@
 export default {
   name: "profile",
   mounted() {
+    definePageMeta({
+      middleware: "authentication",
+    })
     const nuxt = useNuxtApp();
     console.log(nuxt);
   },

@@ -2,7 +2,7 @@ export default defineNuxtPlugin((nuxtApp) => {
   // console.log(nuxtApp);
   nuxtApp.vueApp.directive('focus', {
     mounted(el) {
-      el.focus()
+      el.focus();
     },
     getSSRProps(binding, vnode) {
       // You can provide SSR-specific props here
@@ -14,4 +14,4 @@ export default defineNuxtPlugin((nuxtApp) => {
       hello: (message: string) => console.log(`Hello ${message}!`)
     }
   }
-})
+});
