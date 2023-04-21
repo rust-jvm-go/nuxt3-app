@@ -1,10 +1,11 @@
 <template>
-  <!-- <h1 class="text-3xl font-bold underline">Index page</h1>-->
-  <div class="Main">
+  <!-- <h1 class="text-3xl font-bold underline">Index page</h1> -->
+  <main>
+    <ContentDoc />
     <Alert />
     <ProfileHeader />
     <img src="@/assets/images/1.png" alt="1.png" />
-  </div>
+  </main>
 </template>
 
 <script lang="ts">

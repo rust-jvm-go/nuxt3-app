@@ -1,10 +1,12 @@
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Event ID: {{ $route.params.id }}
-  </h1>
+  <div>
+    <h1 class="text-3xl font-bold underline">
+      Event ID: {{ $route.params.id }}
+    </h1>
+  </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   name: "profile",
   mounted() {

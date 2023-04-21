@@ -11,9 +11,12 @@ export default defineNuxtConfig({
     assets: "/<rootDir>/assets",
   },
   modules: [
-    "@nuxtjs/tailwindcss"
+    "@nuxtjs/tailwindcss",
+    "@nuxt/content"
   ],
-  css: ["@/assets/css/input.css"],
+  css: [
+    "@/assets/css/input.css"
+  ],
   postcss: {
     plugins: {
       tailwindcss: {},
